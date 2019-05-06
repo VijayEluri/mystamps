@@ -2,7 +2,8 @@ dist: xenial
 language: java
 
 before_script:
-  - pip install --user ansible==2.1.1.0;
+  - pip install --upgrade pip;
+    pip install --user ansible==2.1.1.0;
     pip install --user html5validator;
     pip install --user robotframework-lint;
 
